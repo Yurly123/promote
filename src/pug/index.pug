@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Agency - Start Bootstrap Theme
+        title 애니원 웹 동아리
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -31,20 +31,14 @@ html(lang='en')
                 a.navbar-brand(href='#page-top')
                     img(src='assets/img/navbar-logo.svg', alt='...')
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                    | Menu
+                    | 메뉴
                     i.fas.fa-bars.ms-1
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
                         li.nav-item
-                            a.nav-link(href='#services') Services
+                            a.nav-link(href='#services') 동아리 소개
                         li.nav-item
-                            a.nav-link(href='#portfolio') Portfolio
-                        li.nav-item
-                            a.nav-link(href='#about') About
-                        li.nav-item
-                            a.nav-link(href='#team') Team
-                        li.nav-item
-                            a.nav-link(href='#contact') Contact
+                            a.nav-link(href='#portfolio') 개발 결과물
         // Masthead
         header.masthead
             .container
@@ -61,22 +55,24 @@ html(lang='en')
                     .col-md-4
                         h4.my-3 웹이 뭔가요
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | 웹 프로그래밍은 우리가 평상시에 사용하는 웹 사이트를 제작하는 것입니다. ex)
+                            a(href='https://m.naver.com' target='_blank') 네이버
+                            span ,
+                            a(href='https://www.google.com' target='_blank') 구글
                     .col-md-4
-                        h4.my-3 무엇을 하나요
+                        h4.my-3 무엇을 배우나요
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | 기본적으로 HTML, CSS, JavaScript를 이용한 페이지 제작 및 기타 기술들을 배웁니다. 여타 언어들보다 굉장히 쉬운 문법을 가지고 있습니다.
                     .col-md-4
                         h4.my-3 어떤게 도움될까요
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | 게임 프로그래밍 뿐만 아니라, 다른 분야의 프로그래밍도 접해보며 개발 능력 또한 향상 시킬수 있습니다. 추가로 취업에 대한 선택의 폭이 넓어 집니다.
 
         // Portfolio Grid
         section#portfolio.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase 개발 결과물
                 .row
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 1
@@ -87,8 +83,7 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
+                                .portfolio-caption-heading Sample Site
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 2
                         .portfolio-item
@@ -98,8 +93,7 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
+                                .portfolio-caption-heading Math Presentation
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
                         .portfolio-item
@@ -109,8 +103,7 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Finish
-                                .portfolio-caption-subheading.text-muted Identity
+                                .portfolio-caption-heading Anione Minecraft
                     .col-lg-4.col-sm-6.mb-4.mb-lg-0
                         // Portfolio item 4
                         .portfolio-item
@@ -120,8 +113,7 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Lines
-                                .portfolio-caption-subheading.text-muted Branding
+                                .portfolio-caption-heading CSS Design
                     .col-lg-4.col-sm-6.mb-4.mb-sm-0
                         // Portfolio item 5
                         .portfolio-item
@@ -131,8 +123,7 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Southwest
-                                .portfolio-caption-subheading.text-muted Website Design
+                                .portfolio-caption-heading home
                     .col-lg-4.col-sm-6
                         // Portfolio item 6
                         .portfolio-item
@@ -142,23 +133,13 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
+                                .portfolio-caption-heading promote
         footer.footer.py-4
             .container
                 .row.align-items-center
-                    .col-lg-4.text-lg-start
-                        | Copyright &copy; Your Website 2022
-                    .col-lg-4.my-3.my-lg-0
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
-                            i.fab.fa-twitter
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
-                            i.fab.fa-facebook-f
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='LinkedIn')
-                            i.fab.fa-linkedin-in
                     .col-lg-4.text-lg-end
-                        a.link-dark.text-decoration-none.me-3(href='tel:010-8193-8687') 부장
-                        a.link-dark.text-decoration-none(href='tel:010-3002-8622') 부부장
+                        a.link-dark.text-decoration-none.me-3(href='tel:010-8193-8687') 부장: 2409 김현빈
+                        a.link-dark.text-decoration-none(href='tel:010-3002-8622') 부부장: 2412 박주원
 
         // Portfolio Modals
         include includes/portfolio-modal-1
